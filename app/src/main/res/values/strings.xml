@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <!-- activity_main.xml -->
+    <string name="empty_list_view">No items to sell. You can add new items at the top right corner.</string>
+    <!-- activity_editor.xml -->
+    <string name="editor_header">Enter a new entry here</string>
+    <string name="save_entry">Save</string>
+    <string name="prod_name_label">Name</string>
+    <string name="prod_price_label">Price (in $)</string>
+    <string name="prod_qty_label">Quantity</string>
+    <string name="prod_image_label">Product Image (optional)</string>
+    <string name="supplier_name_label">Supplier Name</string>
+    <string name="supplier_phone_label">Supplier Phone</string>
+    <string name="supplier_email_label">Supplier Mail</string>
+    <!-- main_menu_options -->
+    <string name="action_insert_dummy_data">Insert Test Item</string>
+    <string name="action_delete_all_entries">Delete all Items</string>
+    <string name="action_go_to_title">Go to Editor</string>
+    <!-- Editor.java -->
+    <string name="title_new_item">Add Item</string>
+    <string name="editor_edit_item">Edit Item</string>
+    <string name="editor_insert_item_fail">Insert failed</string>
+    <string name="editor_insert_item_success">Insert successful</string>
+    <string name="editor_update_item_failed">Update failed</string>
+    <string name="editor_update_item_successful">Update successful</string>
+    <string name="empty_fields_dialog">You have to fill out all information</string>
+    <string name="stay">Stay</string>
+    <string name="empty_field_title">Empty fields</string>
+    <!-- menu_editor -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="unsaved_changes_dialog_msg">There are unsaved changes. Are you sure you want to quit?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Do you want to delete the item?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_item_failed">Failed to delete</string>
+    <string name="editor_delete_item_successful">Deleted succesfully</string>
+</resources>

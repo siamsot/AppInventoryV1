@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/editor_header"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+    <!-- prod_name & prod_price & prod_qty & supplier_name & supplier_phone & supplier_email -->
+
+    <LinearLayout style="@style/editor_linear_layout">
+
+        <TextView
+            android:id="@+id/prod_name_label"
+            style="@style/editor_labels"
+            android:text="@string/prod_name_label" />
+
+        <EditText
+            android:id="@+id/prod_name"
+            style="@style/editor_edit_field" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/editor_linear_layout">
+
+        <TextView
+            android:id="@+id/prod_price_label"
+            style="@style/editor_labels"
+            android:text="@string/prod_price_label" />
+
+        <EditText
+            android:id="@+id/prod_price"
+            style="@style/editor_edit_field"
+            android:layout_width="80dp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/editor_linear_layout">
+
+        <TextView
+            android:id="@+id/prod_qty_label"
+            style="@style/editor_labels"
+            android:text="@string/prod_qty_label" />
+
+        <Button
+            android:id="@+id/decrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/prod_qty"
+            style="@style/editor_edit_field"
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="0dp" />
+
+        <Button
+            android:id="@+id/increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/editor_linear_layout">
+
+        <TextView
+            android:id="@+id/supplier_name_label"
+            style="@style/editor_labels"
+            android:text="@string/supplier_name_label" />
+
+        <EditText
+            android:id="@+id/supplier_name"
+            style="@style/editor_edit_field" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/editor_linear_layout">
+
+        <TextView
+            android:id="@+id/supplier_phone_label"
+            style="@style/editor_labels"
+            android:text="@string/supplier_phone_label" />
+
+        <EditText
+            android:id="@+id/supplier_phone"
+            style="@style/editor_edit_field" />
+
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_white_24dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/editor_linear_layout">
+
+        <TextView
+            android:id="@+id/supplier_email_label"
+            style="@style/editor_labels"
+            android:text="@string/supplier_email_label" />
+
+        <EditText
+            android:id="@+id/supplier_email"
+            style="@style/editor_edit_field"
+            android:layout_width="100dp" />
+
+        <ImageButton
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_email_white_24dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
